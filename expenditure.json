@@ -1,0 +1,29 @@
+[
+    {
+        "date": "29 February 2024",
+        "expenses": [
+            {
+                "category": "hotel",
+                "amount": 23000
+            }
+        ]
+    },
+    {
+        "date": "29 February 2024",
+        "expenses": [
+            {
+                "category": "movie",
+                "amount": 2000
+            }
+        ]
+    },
+    {
+        "date": "29 February 2024",
+        "expenses": [
+            {
+                "category": "movie",
+                "amount": 3000
+            }
+        ]
+    }
+]

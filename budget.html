@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Planner</h1>
+        <div>
+            <label for="income">Income:</label>
+            <input type="number" id="income">
+        </div>
+        <div id="expenseCategories">
+        
+        </div>
+        <button onclick="addExpenseCategory()">Add Expense Category</button>
+        <button onclick="calculateAndShowGraphs()">Calculate</button>
+        <button onclick="resetBudget()">Reset</button>
+  
+        <button onclick="addExpenditureInFile()">Add in file</button>
+        <button><a href="graph.html" style="text-decoration: none;" id="graph_button">view graph</a></button>
+    </div>
+    <div id="result"></div>
+    <p>Here add the category of expenditure (eg. hoteling,college,rent,etc)</p>
+    <p>the add the expenditure value</p>
+    <p>It will calculate the expendture and give the result</p>
+    <p>now add it in file</p>
+    <p>click on view graph to see the ration of your expenditure (prev+curr) on each category</p>
+    <script src="budget.js"></script>
+    <script src="expenditure_calc_me.js"></script> 
+</body>
+</html>
